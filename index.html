@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Sanpellegrino Sparking Fruit Beverages</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
+
+ <img width="750" alt="San Pellegrino Fruit Beverages" src="http://www.paolocastello.net/wp-content/uploads/2013/01/News-SFB2.jpg" />
+
+ <hr />
+ <hr />
+
+ <form method="post" action="">
+    
+    <label for="sp-flavors">San Pellegrino Flavors</label>
+    <select id="sp-flavors" name="flavors">
+        <option value="lemon">Lemon</option>
+        <option value="orange">Orange</option>
+        <option value="grapefruit">Grapefruit</option>
+        <option value="clementine">Clementine</option>
+        <option value="bloodOrange">Blood Orange</option>
+        <option value="pomOrange">Pomegranite & Orange</option>
+        <option value="pearOrange">Prickly Pear & Orange</option>
+    </select>
+    <hr/>
+
+    <label for="order-quantity">Order Quantity:</label>
+    <input type="number" id="order-quantity" name="quantity" />
+    <hr/>
+
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first-name" />
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" />
+    <br/>
+    <br/>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" />
+    <br/>
+    <br/>
+
+    <label for="phone-number">Phone Number:</label>
+    <input type="text" id="phone-number" name="phone-number" />
+    <br/>
+    <br/>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" />
+    <br/>
+    <br/>
+
+    <label for="state">State:</label>
+    <select id="state" name="state">
+        <option value="IN">Indiana</option>
+        <option value="IL">Illinois</option>
+        <option value="KY">Kentucky</option>
+        <option value="MI">Michigan</option>
+        <option value="OH">Ohio</option>
+        <option value="PA">Pennsylvania</option>
+        <option value="TN">Tennessee</option>
+    </select>
+    <br/>
+    <br/>
+
+    <label for="zip-code">Zip Code:</label>
+    <input type="text" id="zip-code" name="zip-code" />
+    <br/>
+    <br/>
+    <hr/>
+
+    <label for="shipping-instructions">Specifify Shipping Instructions Below:</label> <br/>
+    <textarea id="shipping-intructions" name="shipping-instructions"></textarea>
+    <br/>
+    <br/>
+    <hr/>
+
+    <label for="wants-newsletter">Sign me up for the newsletter!</label>
+    <input type="checkbox" id="wants-newsletter" name="wants-newsletter" value="Yes"/>
+    <br/>
+    <br/>
+    <hr/>
+
+    <button type="submit">Submit</button>
+    <br/>
+    <br/>
+    <hr/>
+
+    </form>
 
 </body>
 </html>
