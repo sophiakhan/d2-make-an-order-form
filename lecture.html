@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form!</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+        <!--<link rel="stylesheet" href="" />-->
+    </head>
+    
+<body>
+<form method="post" action="http://thinksyado.com/sunmit.php">
+
+        <label for="firstName">First Name</label><br/>
+        <input type="text" id="firstName" name="first_name" placeholder="Example: Joe" /><br/><br/>
+
+        <hr/>
+
+        <input type="radio" id="greenShirt" name="options" value="Green Shirt" />
+        <label for="greenShirt">Green Shirt</label>
+        <br/><br/>
+
+        <input type="radio" id="purpleShirt" name="options" value="Purple Shirt" />
+        <label for="purpleShirt">Purple Shirt</label>
+        <br/><br/>
+
+        <input type="radio" id="blueShirt" name="options" value="Blue Shirt" />
+        <label for="blueShirt">Blue Shirt</label>
+        <br/><br/>
+
+        <hr/>
+
+        <input type="checkbox" id="wantsNewsletter" name="wants_newsletter" value="yes" />
+        <label for="wantsNewsletter">Sign Up For Newsletter</label><br><br>
+
+
+        <hr/>
+
+        <label for="state">State</label><br/>
+        <select id="state" name="state">
+            <option value="CA">Canada</option>
+            <option value="MX">Mexico</option>
+            <option value="US">United States</option>
+        </select>
+
+        <hr/>
+
+        <label for="comment">Comments</label><br/>
+        <textarea name="comment"></textarea>
+
+        <hr/>
+
+        <button type="submit">Send</button>
+
+    </form>
+</body>
